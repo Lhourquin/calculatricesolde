@@ -1,0 +1,12 @@
+{
+  "name" : "Tuto pwa",
+  "icons": [
+    {
+      "src": "/icons/calculatrice.png",
+      "type": "image/png",
+      "sizes": "300x241"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "display": "standalone"
+}

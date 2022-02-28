@@ -6,20 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="manifest" href="./manifest.json" />
+
     <title>Soldes</title>
-    <script>
-        window.addEventListener("load", () => {
-
-            if ("serviceWorker" in navigator) {
-                navigator.serviceWorker.register('/sw.js');
-            }
-
-        })
-    </script>
 </head>
 
 <body>
+    <nav class="navbar">
+        <ul>
+            <li> <a href="#">Calculer un pourcentage</a></li>
+            <li><a href="./list.html">Lite de produit</a></li>
+        </ul>
+    </nav>
     <div class="container">
         <div class="form">
             <div class="texte">Quel est le prix de l'article ?</div>
