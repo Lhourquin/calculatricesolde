@@ -1,9 +1,5 @@
 {
-  "name" : "Solde Calculator",
-  "short_name" : "SC",
-  "start_url": "/?source=pwa",
-  "orientation" : "portrait-primary",
-  "description" : "Calculer le pourcentage d'un prix.",
+  "name" : "Tuto pwa",
   "icons": [
     {
       "src" : "/icons/cal192.png",
@@ -12,10 +8,11 @@
       "purpose" : "any maskable"
     },
     {
-      "src": "/icons/cal512.png",
+      "src": "/icons/calculatrice.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
+  "start_url": "/?source=pwa",
   "display": "standalone"
 }
